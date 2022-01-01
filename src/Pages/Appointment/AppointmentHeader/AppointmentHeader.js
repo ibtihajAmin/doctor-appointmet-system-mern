@@ -4,6 +4,7 @@ import appointment_banner from '../../../images/appointment_banner.jpg';
 import Calendar from '../../Shared/Calendar/Calendar';
 
 const AppointmentHeader = ({ date, setDate }) => {
+    console.log(date);
     return (
         <Container>
             <Grid container spacing={2}>
